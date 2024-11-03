@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Network-Security
+Version: 0.0.1
+Author: Kevin Joy
+Author-email: kevinjoythomas2004@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pymongo
+Requires-Dist: certifi
