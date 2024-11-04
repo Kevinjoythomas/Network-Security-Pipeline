@@ -1,0 +1,10 @@
+[ 2024-11-04 18:45:32,853 ] 15 root - INFO - Initiate the data ingestion 
+[ 2024-11-04 18:45:36,074 ] 62 root - INFO - Performed train test split on dataframe 
+[ 2024-11-04 18:45:36,086 ] 67 root - INFO - Exporting train and test file path 
+[ 2024-11-04 18:45:36,165 ] 76 root - INFO - Exported train and test csv completed 
+[ 2024-11-04 18:45:36,262 ] 46 root - INFO - Required number of columns 31 
+[ 2024-11-04 18:45:36,262 ] 47 root - INFO - Data has number of columns 31 
+[ 2024-11-04 18:45:36,262 ] 46 root - INFO - Required number of columns 31 
+[ 2024-11-04 18:45:36,262 ] 47 root - INFO - Data has number of columns 31 
+[ 2024-11-04 18:45:36,277 ] 39 root - INFO - Numberical columns returned True 
+[ 2024-11-04 18:45:36,288 ] 39 root - INFO - Numberical columns returned True 
