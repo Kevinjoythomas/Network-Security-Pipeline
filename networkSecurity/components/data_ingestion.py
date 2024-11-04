@@ -31,7 +31,7 @@ class DataIngestion:
             collection = self.mongo_client[database_name][collection_name]
             
             df = pd.DataFrame(list(collection.find()))
-            print(df.head())
+            # print(df.head())
             if "_id" in df.columns.to_list():
                df.drop('_id',axis=1,inplace=True)
             # if df.empty:
