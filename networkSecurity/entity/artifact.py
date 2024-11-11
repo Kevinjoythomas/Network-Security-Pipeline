@@ -19,3 +19,14 @@ class DataTransformationArtifact:
     transformed_object_file_path: str
     transformed_train_file_path: str
     transformed_test_file_path: str
+
+@dataclass
+class ClassificationArtifact:
+    f1_score: float
+    precision_score: float
+    recall_score: float
+@dataclass
+class ModelTrainer_Artifact:
+    trained_model_file_path: str
+    train_metric_artifact: ClassificationArtifact
+    test_metric_artifact: ClassificationArtifact
