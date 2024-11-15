@@ -1,0 +1,5 @@
+[ 2024-11-15 18:11:07,753 ] 1026 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK" 
+[ 2024-11-15 18:11:07,763 ] 107 dagshub - INFO - Accessing as kevinjoythomas2004 
+[ 2024-11-15 18:11:08,363 ] 1026 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/kevinjoythomas2004/Network-Security-Pipeline "HTTP/1.1 200 OK" 
+[ 2024-11-15 18:11:08,363 ] 107 dagshub - INFO - Initialized MLflow to track repo "kevinjoythomas2004/Network-Security-Pipeline" 
+[ 2024-11-15 18:11:08,363 ] 107 dagshub - INFO - Repository kevinjoythomas2004/Network-Security-Pipeline initialized! 

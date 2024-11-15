@@ -26,7 +26,7 @@ import mlflow
 from urllib.parse import urlparse
 
 import dagshub
-dagshub.init(repo_owner='kevinjoythomas2004', repo_name='Network-Security-Pipeline', mlflow=True)
+# dagshub.init(repo_owner='kevinjoythomas2004', repo_name='Network-Security-Pipeline', mlflow=True)
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/kevinjoythomas2004/Network-Security-Pipeline.mlflow"
 
 class ModelTrainer:
