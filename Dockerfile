@@ -1,4 +1,4 @@
-from python:3.12-sli-buster
+FROM python:3.12-sli-buster
 WORKDIR /app
 COPY . /app/
 
