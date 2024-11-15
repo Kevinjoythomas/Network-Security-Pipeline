@@ -80,7 +80,7 @@ jobs:
         
         - name: Pull latest image
           run: |
-            docker pull ${{ secrets.AWS_ECR_LOGIN_URI }}/${{ secrets.ECR_REPOSITORY_NAME}}:latest
+            docker pull ${{ secrets.AWS_ECR_URI }}/${{ secrets.ECR_REPOSITORY_NAME}}:latest
 
         - name: Run Docker Image to serve users
           run: |
