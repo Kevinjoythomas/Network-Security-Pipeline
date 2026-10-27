@@ -1,8 +1,11 @@
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
-uri = "MONGODB_URL_REMOVED"
+uri = os.getenv("MONGODB_URL_KEY")  # set in .env, never commit it
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
