@@ -1,1 +1,12 @@
-wine2
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+logs/
+prediction_output/
+templates/response_*.html
+Artifacts/
+.DS_Store
+.ipynb_checkpoints/
